@@ -134,14 +134,17 @@ pip install -r requirements.txt
 Depending on how you want to interact with the model, you can:
 
 ▶️ Option A: Run the main Python script
+
 python main.py
 
 ▶️ Option B: Run the app (e.g., Streamlit / Web UI)
 
 If app.py uses Streamlit or a similar framework:# If Streamlit-based:
+
 streamlit run app.py
 
 Or if it's a plain Python UI script:
+
 python app.py
 
 ## Typical Workflow
@@ -159,5 +162,6 @@ Result is displayed as:
 Probability of heart disease
 
 Risk label (e.g., Low, Moderate, High)
+
 
 
